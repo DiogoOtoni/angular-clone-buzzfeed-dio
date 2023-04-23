@@ -1,9 +1,14 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+// "resolveJsonModule": true,
+// "allowSyntheticDefaultImports": true,
+// FORAM ADICIONADOS PARA LEITURA E INTERPRETAÇÃO DE JSON
 {
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
